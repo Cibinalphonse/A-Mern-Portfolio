@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-image: url('/public/bg.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+    background-color:transparent;
+    color: white;
+    padding-top: 20px;
+    font-size: 32px;  
+}
+
+ul,li{
+    display: flex;
+}
+
+li{
+    padding: 5px;
+    margin: 5px;
+}
+
+ul{
+    margin-left: 45%;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#Home{
+    background: transparent;
+    color: white;
+    margin-top: 225px;
+}
+.image{
+    display: inline-block;
+    margin-left: 300px;
+}
+.name{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.About {
+    color: white;
+    text-align: center;
+    padding-top: 450px;
+    font-size: 25px;
+}
+.About button{
+    border: 2px solid orangered;
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.Works{
+    padding-top: 210px;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    display: inline-block;
+    padding: 22px;
+    border: 2px solid orange;
+}
+.box1{
+    margin-left: 15%;
+}
+.box1:hover{
+     background-color: aqua;
+}
+.box2:hover{
+     background-color: aqua;
+}
+.box3:hover{
+     background-color: aqua;
+}
+.box4:hover{
+     background-color: aqua;
+}
+.box5:hover{
+     background-color: aqua;
+}
+.Projects{
+    padding-top: 250px;
+}
+.Projects a{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+}
+a{
+    margin-left: 45%;
+}
+.Projects button{
+    width: 150px;
+    font-size: 20px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    text-align: center;
+}
+.Projects button:hover{
+    background-color: aqua;
+    color: white;
+}
+.Form{
+    padding-top: 300px;
+}
+.Formheading{
+    color: white;
+    text-align:center;
+    font-size: 55px;
+}
+.Formlogin{
+    padding-top: 50px;
+    text-align: center;
+}
+.Formlogin input{
+    display: inline-block;
+    width: 360px;
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size:  20px; ;
+}
+.Formlogin textarea{
+    border-radius: 5px;
+    border: 2px solid orange;
+    font-size: 20px;
+}
+.Formlogin button{
+    font-size: 20px;
+    width: 200px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.Formlogin button:hover{
+    background-color: blue;
+    color: white;
+}   
+.Connectheading{
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 50px;
+}
+.sociallinks{
+     display: inline-flex;
+     margin-left: 25%;
+     padding: 10px;
+     margin-top: 50px;
+}
+
